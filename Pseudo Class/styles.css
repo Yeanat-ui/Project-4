@@ -1,0 +1,58 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background: #333;
+    color: #fff;
+    padding: 10px ;
+}
+
+nav ul {
+    list-style-type: none;
+    padding:;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 60px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #00bfff; /* Change color on hover */
+}
+
+.item-list {
+    padding: 50px;
+    list-style-type: none;
+}
+
+.item-list li {
+    padding: 10px;
+    margin: 5px 0;
+    background: #fff;
+    border: 1px solid #ddd;
+    transition: background-color 0.3s;
+}
+
+.item-list li:hover {
+    background-color: #e0f7fa; /* Change background color on hover */
+}
+
+.item-list li:nth-child(even) {
+    background: #f9f9f9; /* Light grey for even items */
+}
+
+.item-list li:active {
+    background-color: hsl(185, 35%, 94%); /* Change background color when active */
+}
+
